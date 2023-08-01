@@ -39,11 +39,12 @@ const DestinationsList = () => {
         <ul>
           {searchResults.map((destination) => (
             <li key={destination.id}>
-              <Link to={`/destination/${destination.id}`}>
-                <h3>{destination.name}</h3>
-              </Link>
+              <h3>{destination.name}</h3>
               <p>{destination.description}</p>
+              <Link to={`/destination/${destination.id}`}>
               <img src={destination.image} alt={destination.name} />
+              </Link>
+              
             </li>
           ))}
         </ul>
