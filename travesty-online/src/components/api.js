@@ -43,3 +43,12 @@ export const addDestinationToBucketList = async (destination) => {
     throw new Error(error.message);
   }
 };
+
+export const fetchBucketList = () => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve([]);
+      }, 500); 
+    });
+  };
+  
