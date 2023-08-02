@@ -45,10 +45,17 @@ export const addDestinationToBucketList = async (destination) => {
 };
 
 export const fetchBucketList = () => {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve([]);
-      }, 500); 
+  return fetch(`${BASE_URL}/bucketlist`)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('Failed to fetch bucket list');
+      }
+      return response.json();
+    })
+    .catch((error) => {
+      console.error('Error fetching bucket list:', error);
+      return [];
     });
-  };
-  
+};
+
+
