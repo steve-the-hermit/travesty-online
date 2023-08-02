@@ -50,7 +50,7 @@ const DestinationDetails = () => {
           ))}
           </ul>
           </div>
-      <p>Popular attractions: {destination.attractions}</p>
+      <p>{destination.attractions}</p>
       <p>Best time to visit: {destination.bestTimeToVisit}</p>
       <p>Travel tips: <li>{destination.travelTips}</li></p>
       <button onClick={handleAddToBucketList}>Add to Bucket List</button>
