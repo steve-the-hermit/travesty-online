@@ -40,7 +40,7 @@ const DestinationDetails = () => {
   return (
     <div>
       <h2>{destination.name}</h2>
-      <img src={destination.image} alt={destination.name} />
+      <img src={destination.url} alt={destination.name} />
       <p>{destination.description}</p>
       <div className="attractions">
         <h3>Popular Attractions:</h3>

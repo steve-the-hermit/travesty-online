@@ -1,593 +1,786 @@
-{  
+{
   "destinations": [
-      {
-        "id": 1,
-        "name": "Paris, France",
-        "description": "The city of love and lights",
-        "url": "",
-        "continent":"Europe",
-        "attractions": ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Take a Seine River cruise",
-          "Visit Montmartre",
-          "Enjoy French cuisine at local cafes"
-        ]
-      },
-      {
-        "id": 2,
-        "name": "New York City, USA",
-        "description": "The city that never sleeps",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNew_York_City&psig=AOvVaw2_jTVwwQlcSely8qapwNjj&ust=1690960185275000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKjS3-vzuoADFQAAAAAdAAAAABAI",
-        "continent":"North America",
-        "attractions": ["Central Park", "Times Square", "Statue of Liberty"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Take a Broadway show",
-          "Visit the Empire State Building",
-          "Try famous New York-style pizza"
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Tokyo, Japan",
-        "description": "The bustling metropolis",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.japanrailpass.com.au%2Ftop-5-free-things-to-do-in-tokyo%2F&psig=AOvVaw0D-EejxNNh1-1pRe0w5ehG&ust=1690960277391000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKix75P0uoADFQAAAAAdAAAAABAE",
-        "continent":"Asia",
-        "attractions": ["Shibuya Crossing", "Tokyo Skytree", "Tsukiji Market"],
-        "bestTimeToVisit": "Spring and Autumn",
-        "travelTips": [
-          "Experience traditional tea ceremony",
-          "Explore Akihabara for electronics and anime",
-          "Try various street foods at food stalls"
-        ]
-      },
-      {
-        "id": 8,
-        "name": "Berlin, Germany",
-        "description": "Offers a mix of history and modernity",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffoodandtravel.com%2Ftravel%2Fgourmet-traveller%2Fin-my-beautiful-neighbourhood&psig=AOvVaw3yLvYU6rH2RJTg5hyr354m&ust=1690960364382000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPDxy7H0uoADFQAAAAAdAAAAABAX",
-        "continent":"Europe",
-        "attractions": ["Brandenburg Gate", "Berlin Wall", "Reichstag Building"],
-        "bestTimeToVisit": "May to September",
-        "travelTips": [
-          "Visit the iconic Brandenburg Gate",
-          "Explore the remains of the Berlin Wall",
-          "Admire the architecture of Reichstag Building"
-        ]
-      },
-      {
-        "id": 9,
-        "name": "Vienna, Austria",
-        "description": "Known for its rich history and classical music heritage",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripsavvy.com%2Fthe-top-things-to-do-in-vienna-austria-4158073&psig=AOvVaw2BKA5Nu5pcq3U7tbnubRm8&ust=1690960434993000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCMCvntf0uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Schönbrunn Palace", "Vienna State Opera", "Belvedere Palace"],
-        "bestTimeToVisit": "April to October",
-        "travelTips": [
-          "Explore the grandeur of Schönbrunn Palace",
-          "Attend a performance at Vienna State Opera",
-          "Admire the art collection at Belvedere Palace"
-        ]
-      },
-      {
-        "id": 10,
-        "name": "Santorini, Greece",
-        "description": "Famous for its beautiful sunsets and white-washed buildings",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kimkim.com%2Fc%2Fhow-many-days-should-you-spend-on-santorini&psig=AOvVaw2r3mRGOSS-DNnE1N-QA31T&ust=1690960485310000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPj_w-70uoADFQAAAAAdAAAAABAI",
-        "continent":"Europe",
-        "attractions": ["Oia", "Fira", "Red Beach"],
-        "bestTimeToVisit": "April to November",
-        "travelTips": [
-          "Watch the stunning sunsets in Oia",
-          "Explore the charming town of Fira",
-          "Relax on the unique Red Beach"
-        ]
-      },
-      {
-        "id": 11,
-        "name": "Athens, Greece",
-        "description": "Offers historical sites like the Acropolis and Parthenon",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FAthens&psig=AOvVaw2cixxVviUeWPPR9qJX1tC0&ust=1690960520580000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOiX-Pv0uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Acropolis", "Parthenon", "Plaka"],
-        "bestTimeToVisit": "March to May and September to November",
-        "travelTips": [
-          "Explore the ancient ruins of Acropolis",
-          "Admire the iconic Parthenon",
-          "Stroll through the charming streets of Plaka"
-        ]
-      },
-      {
-        "id": 12,
-        "name": "Prague, Czech Republic",
-        "description": "A city with stunning architecture and historical landmarks",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fplaces-to-visit-in-prague%2F&psig=AOvVaw2MUoaG59TAqQJaM0CDCkDs&ust=1690960581052000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPCY_pn1uoADFQAAAAAdAAAAABAc",
-        "continent":"Europe",
-        "attractions": ["Prague Castle", "Charles Bridge", "Old Town Square"],
-        "bestTimeToVisit": "April to October",
-        "travelTips": [
-          "Visit the largest ancient castle in the world - Prague Castle",
-          "Walk across the iconic Charles Bridge",
-          "Experience the vibrant atmosphere of Old Town Square"
-        ]
-      },
-      {
-        "id": 13,
-        "name": "Barcelona, Spain",
-        "description": "Famous for its unique architecture and vibrant culture",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fearth.esa.int%2Fweb%2Fearth-watching%2Fimage-of-the-week%2Fcontent%2F-%2Farticle%2Fbarcelona-spain-landsat%2F&psig=AOvVaw0jDBFk_LpE63QQjXemyWg1&ust=1690960633724000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJCVj7T1uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Sagrada Família", "Park Güell", "La Rambla"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Marvel at the unique architecture of Sagrada Família",
-          "Relax in the beautiful Park Güell",
-          "Take a stroll along the vibrant La Rambla"
-        ]
-      },
-      {
-        "id": 14,
-        "name": "Amsterdam, Netherlands",
-        "description": "Known for its picturesque canals and cultural attractions",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationsonline.org%2Foneworld%2Fmap%2Fgoogle_map_Amsterdam.htm&psig=AOvVaw0KGeUwslH2n-BwfpUJl4Ec&ust=1690960668807000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIjMlsP1uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Van Gogh Museum", "Anne Frank House", "Rijksmuseum"],
-        "bestTimeToVisit": "April to October",
-        "travelTips": [
-          "Explore the art collection at Van Gogh Museum",
-          "Learn about history at Anne Frank House",
-          "Admire masterpieces at the Rijksmuseum"
-        ]
-      },
-      {
-        "id": 15,
-        "name": "London, United Kingdom",
-        "description": "A city with a rich history and iconic landmarks",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sothebysrealty.com%2Feng%2Fdestinations%2Flondon-england-united-kingdom&psig=AOvVaw0SKxp3JHt8Px0I9efwYj8c&ust=1690960729374000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKCr6-H1uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Buckingham Palace", "Big Ben", "British Museum"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Watch the Changing of the Guard at Buckingham Palace",
-          "Visit the famous clock tower - Big Ben",
-          "Explore the extensive collection at the British Museum"
-        ]
-      },
-      {
-        "id": 50,
-        "name": "Barcelona, Spain",
-        "description": "A city known for its art and architecture",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Fuk%2Flifestyle%2Ftravel%2Fg42737415%2Fspain-holiday-destinations%2F&psig=AOvVaw1kEAZPyzfeBiXsKc_4hlEG&ust=1690960772392000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPjMufT1uoADFQAAAAAdAAAAABAX",
-        "continent":"Europe",
-        "attractions": ["Sagrada Família", "Park Güell", "La Rambla"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Marvel at the unique architecture of Sagrada Família",
-          "Relax in the beautiful Park Güell",
-          "Take a stroll along the vibrant La Rambla"
-        ]
-      },
-      {
-        "id": 51,
-        "name": "Cairo, Egypt",
-        "description": "Home to the iconic Pyramids of Giza and the Sphinx",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FTourism-g294201-Cairo_Cairo_Governorate-Vacations.html&psig=AOvVaw00YPva9IBl0J1mNv7P9Txz&ust=1690960823960000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPia1Yz2uoADFQAAAAAdAAAAABAI",
-        "continent":"Africa",
-        "attractions": ["Pyramids of Giza", "The Sphinx", "Khan El Khalili Bazaar"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Explore the ancient wonders of the Pyramids",
-          "Visit the fascinating Egyptian Museum",
-          "Experience a traditional felucca ride on the Nile River"
-        ]
-      },
-      {
-        "id": 52,
-        "name": "Marrakech, Morocco",
-        "description": "Known for its vibrant markets and historic architecture",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kimkim.com%2Fc%2Fhighlights-morocco-beach-desert-fes-marrakech-sahara-7-days&psig=AOvVaw2yg6sbPwuABv24N-eCia8y&ust=1690960861624000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCMjS3KH2uoADFQAAAAAdAAAAABAJ",
-        "continent":"Africa",
-        "attractions": ["Jemaa el-Fnaa", "Bahia Palace", "Majorelle Garden"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Get lost in the lively souks of Jemaa el-Fnaa",
-          "Admire the beautiful architecture of Bahia Palace",
-          "Relax in the serene Majorelle Garden"
-        ]
-      },
-      {
-        "id": 53,
-        "name": "Cape Town, South Africa",
-        "description": "Famous for Table Mountain and the Cape Peninsula",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FCape-Town&psig=AOvVaw05wUKjH4PaY2suM-p4ENzP&ust=1690960915223000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLjsnrj2uoADFQAAAAAdAAAAABAD",
-        "continent":"Africa",
-        "attractions": ["Table Mountain", "Cape of Good Hope", "Kirstenbosch National Botanical Garden"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Take a cable car ride to Table Mountain",
-          "Visit the Cape Winelands for wine tasting",
-          "Explore the scenic Cape Peninsula"
-        ]
-      },
-      {
-        "id": 54,
-        "name": "Nairobi, Kenya",
-        "description": "A gateway to safaris and wildlife reserves like Maasai Mara",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftourscanner.com%2Fblog%2Ffun-things-to-do-in-nairobi%2F&psig=AOvVaw0n86Be1Bi7hR1haSTOFYMp&ust=1690960975638000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPj4qNb2uoADFQAAAAAdAAAAABAD",
-        "continent":"Africa",
-        "attractions": ["Maasai Mara National Reserve", "David Sheldrick Wildlife Trust", "Giraffe Centre"],
-        "bestTimeToVisit": "January to March and July to October",
-        "travelTips": [
-          "Embark on a thrilling safari in Maasai Mara",
-          "Visit the David Sheldrick Wildlife Trust for elephant orphanage",
-          "Feed giraffes at the Giraffe Centre"
-        ]
-      },
-      {
-        "id": 55,
-        "name": "Victoria Falls, Zimbabwe, and Zambia",
-        "description": "One of the largest waterfalls in the world",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FAttraction_Review-g293761-d15224353-Reviews-Explore_Victoria_Falls-Victoria_Falls_Matabeleland_North_Province.html&psig=AOvVaw1Rz39pWrOOwVu4QHocvtbn&ust=1690961013510000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPjfmOz2uoADFQAAAAAdAAAAABAD",
-        "continent":"Africa",
-        "attractions": ["Victoria Falls Bridge", "Devil's Pool", "Zambezi River Cruise"],
-        "bestTimeToVisit": "February to May",
-        "travelTips": [
-          "Marvel at the breathtaking views of Victoria Falls",
-          "Take a dip in the natural pool at Devil's Pool",
-          "Enjoy a scenic Zambezi River Cruise"
-        ]
-      },
-      {
-        "id": 56,
-        "name": "Serengeti National Park, Tanzania",
-        "description": "Renowned for its annual wildebeest migration",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpeakvisor.com%2Fpark%2Fserengeti-national-park.html&psig=AOvVaw0qIvErLEqiYFYI4aZU9E5Z&ust=1690961052653000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJj87_n2uoADFQAAAAAdAAAAABAI",
-        "continent":"Africa",
-        "attractions": ["Great Migration", "Ngorongoro Crater", "Maasai Village Visit"],
-        "bestTimeToVisit": "June to September",
-        "travelTips": [
-          "Witness the incredible Great Migration of wildebeests",
-          "Explore the unique ecosystem of Ngorongoro Crater",
-          "Experience Maasai culture at a local village"
-        ]
-      },
-      {
-        "id": 57,
-        "name": "Luxor, Egypt",
-        "description": "Offers impressive ancient temples and historical sites",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.touristisrael.com%2Fluxor-egypt%2F33438%2F&psig=AOvVaw0C8x_jQo3W4gSLXaXhE-ht&ust=1690961082235000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIjhron3uoADFQAAAAAdAAAAABAD",
-        "continent":"Africa",
-        "attractions": ["Karnak Temple", "Valley of the Kings", "Luxor Temple"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Discover the vast complex of Karnak Temple",
-          "Explore the tombs in the Valley of the Kings",
-          "Admire the beauty of Luxor Temple at night"
-        ]
-      },
-      {
-        "id": 58,
-        "name": "Zanzibar, Tanzania",
-        "description": "A beautiful island known for its pristine beaches",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeafricatoday.com%2Ftravel-guides%2F5-spectacular-vacation-hotels-in-zanzibar-island-tanzania%2F&psig=AOvVaw1xEoMgc0Pzcx6OZ29sLUsO&ust=1690961176932000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCID5krX3uoADFQAAAAAdAAAAABAJ",
-        "continent":"Africa",
-        "attractions": ["Stone Town", "Nungwi Beach", "Prison Island"],
-        "bestTimeToVisit": "June to October and December to February",
-        "travelTips": [
-          "Wander through the historic alleys of Stone Town",
-          "Relax on the idyllic beaches of Nungwi",
-          "Visit the giant tortoises on Prison Island"
-        ]
-      },
-      {
-        "id": 59,
-        "name": "Kruger National Park, South Africa",
-        "description": "One of Africa's best game reserves",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKruger_National_Park&psig=AOvVaw0aJCZd1VTp8yWfuo3fAjdi&ust=1690961215111000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJCPw8f3uoADFQAAAAAdAAAAABAD",
-        "continent":"Africa",
-        "attractions": ["Big Five Safari", "Blyde River Canyon", "Skukuza Golf Course"],
-        "bestTimeToVisit": "May to September",
-        "travelTips": [
-          "Embark on an exciting Big Five safari adventure",
-          "Marvel at the stunning views of Blyde River Canyon",
-          "Play golf surrounded by wildlife at Skukuza Golf Course"
-        ]
-      },
-      {
-        "id": 60,
-        "name": "Essaouira, Morocco",
-        "description": "A coastal town with a charming medina and sandy beaches",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independent.co.uk%2Ftravel%2Fnorth-africa-middle-east%2Fessaouira-travel-guide-best-hotels-city-restaurants-things-to-do-a9217161.html&psig=AOvVaw0P1VOHvzpxN1VgTzWLEMNU&ust=1690961269383000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJiFr-H3uoADFQAAAAAdAAAAABAH",
-        "continent":"Africa",
-        "attractions": ["Medina of Essaouira", "Essaouira Beach", "Scala de la Ville"],
-        "bestTimeToVisit": "April to June and September to November",
-        "travelTips": [
-          "Stroll through the narrow streets of Medina of Essaouira",
-          "Relax on the picturesque Essaouira Beach",
-          "Explore the historic Scala de la Ville fortification"
-        ]
-      },
-      {
-        "id": 61,
-        "name": "Dubai, United Arab Emirates",
-        "description": "Known for its modern architecture and luxury shopping",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.arabianbusiness.com%2Findustries%2Freal-estate%2Fdubai-abu-dhabi-real-estate-markets-cash-in-as-soaring-investor-confidence-fuels-uae-off-plan-property-boom&psig=AOvVaw1YScDqDGM1qtU17TuvYyrg&ust=1690961304237000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIDcsvP3uoADFQAAAAAdAAAAABAD",
-        "continent":"Middle East",
-        "attractions": ["Burj Khalifa", "Dubai Mall", "Palm Jumeirah"],
-        "bestTimeToVisit": "November to April",
-        "travelTips": [
-          "Visit the observation decks of Burj Khalifa",
-          "Indulge in retail therapy at Dubai Mall",
-          "Relax on the man-made Palm Jumeirah island"
-        ]
-      },
-      {
-        "id": 62,
-        "name": "Istanbul, Turkey",
-        "description": "A city that bridges Europe and Asia with a rich history",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.timeout.com%2Fistanbul%2Fthings-to-do%2Fbest-things-to-do-in-istanbul&psig=AOvVaw07DqzoY--SR8Gvv09tf8of&ust=1690961364432000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwi4qfWM-LqAAxXmVvEDHRMWCbMQjRx6BAgAEAw",
-        "continent":"Europe",
-        "attractions": ["Hagia Sophia", "Blue Mosque", "Topkapi Palace"],
-        "bestTimeToVisit": "April to June and September to November",
-        "travelTips": [
-          "Marvel at the beauty of Hagia Sophia",
-          "Visit the iconic Blue Mosque",
-          "Explore the opulent Topkapi Palace"
-        ]
-      },
-      {
-        "id": 63,
-        "name": "Petra, Jordan",
-        "description": "Home to the ancient archaeological site of Petra",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Ftravel%2Fworld-heritage%2Farticle%2Fpetra-jordan&psig=AOvVaw3r0fOFoODj1IedQ0dPDkau&ust=1690961392391000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCMjQs5v4uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Al-Khazneh", "The Siq", "The Monastery"],
-        "bestTimeToVisit": "March to May and September to November",
-        "travelTips": [
-          "Walk through the narrow gorge of The Siq",
-          "Discover the Treasury (Al-Khazneh) at Petra",
-          "Climb up to the impressive Monastery"
-        ]
-      },
-      {
-        "id": 64,
-        "name": "Jerusalem, Israel/Palestine",
-        "description": "A city of historical and religious significance",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.history.com%2Ftopics%2Fancient-middle-east%2Fhistory-of-jerusalem&psig=AOvVaw1KZfGU1WJ68muAqzygSKpq&ust=1690961435945000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJj3lrD4uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Western Wall", "Church of the Holy Sepulchre", "Dome of the Rock"],
-        "bestTimeToVisit": "April to May and October to November",
-        "travelTips": [
-          "Visit the Western Wall, a sacred Jewish site",
-          "Explore the Church of the Holy Sepulchre",
-          "Admire the iconic Dome of the Rock"
-        ]
-      },
-      {
-        "id": 65,
-        "name": "Abu Dhabi, United Arab Emirates",
-        "description": "The capital of the UAE with cultural landmarks",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.earthtrekkers.com%2Fphoto-tour-abu-dhabi-dubai%2F&psig=AOvVaw3fx_ELp5QHaEFCMzVG-IOd&ust=1690961466060000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNiU9b74uoADFQAAAAAdAAAAABAD",
-        "continent":"Middle East",
-        "attractions": ["Sheikh Zayed Grand Mosque", "Louvre Abu Dhabi", "Ferrari World"],
-        "bestTimeToVisit": "November to April",
-        "travelTips": [
-          "Marvel at the grandeur of Sheikh Zayed Grand Mosque",
-          "Explore the impressive art collection at Louvre Abu Dhabi",
-          "Enjoy thrilling rides at Ferrari World"
-        ]
-      },
-      {
-        "id": 66,
-        "name": "Cairo, Egypt",
-        "description": "Offers ancient wonders like the Pyramids of Giza",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.egypttoursportal.com%2Fcairo-city%2F&psig=AOvVaw33aMdmCUA7Dj3_Bysxky41&ust=1690961496078000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJjcxc34uoADFQAAAAAdAAAAABAD",
-        "continent":"Africa",
-        "attractions": ["Pyramids of Giza", "The Sphinx", "Khan El Khalili Bazaar"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Explore the ancient wonders of the Pyramids",
-          "Visit the fascinating Egyptian Museum",
-          "Experience a traditional felucca ride on the Nile River"
-        ]
-      },
-      {
-        "id": 67,
-        "name": "Muscat, Oman",
-        "description": "Known for its stunning landscapes and traditional souks",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.travelawaits.com%2F2555430%2Fbest-things-to-see-and-do-in-muscat-oman%2F&psig=AOvVaw2ToutBxKModXhmHA7f92YC&ust=1690961527921000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJjI8tz4uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Sultan Qaboos Grand Mosque", "Mutrah Souq", "Royal Opera House"],
-        "bestTimeToVisit": "November to February",
-        "travelTips": [
-          "Admire the architecture of Sultan Qaboos Grand Mosque",
-          "Shop for traditional goods at Mutrah Souq",
-          "Attend a performance at the Royal Opera House"
-        ]
-      },
-      {
-        "id": 68,
-        "name": "Marrakech, Morocco",
-        "description": "A vibrant city in North Africa known for its markets",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Ftravel%2Farticle%2Ftop-activities-things-to-do-37&psig=AOvVaw2DkY0Eg8tC5XQhJ2PaWlQt&ust=1690961574494000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKDssfL4uoADFQAAAAAdAAAAABAD",
-        "continent":"Africa",
-        "attractions": ["Jemaa el-Fnaa", "Bahia Palace", "Majorelle Garden"],
-        "bestTimeToVisit": "Spring and Fall",
-        "travelTips": [
-          "Get lost in the lively souks of Jemaa el-Fnaa",
-          "Admire the beautiful architecture of Bahia Palace",
-          "Relax in the serene Majorelle Garden"
-        ]
-      },
-      {
-        "id": 69,
-        "name": "Amman, Jordan",
-        "description": "A blend of ancient ruins and modernity",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.afar.com%2Fmagazine%2Fa-road-trip-through-jordan-from-city-to-desert-to-sea&psig=AOvVaw1-JOYdXff1Fie_iP2deGmY&ust=1690961598653000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOCrwIn5uoADFQAAAAAdAAAAABAD",
-        "continent":"Europe",
-        "attractions": ["Amman Citadel", "Roman Theatre", "Rainbow Street"],
-        "bestTimeToVisit": "March to May and September to November",
-        "travelTips": [
-          "Explore the historical Amman Citadel",
-          "Visit the well-preserved Roman Theatre",
-          "Stroll along the vibrant Rainbow Street"
-        ]
-      },
-      {
-        "id": 70,
-        "name": "Doha, Qatar",
-        "description": "A modern city with futuristic architecture",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Flusail-qatar%2Findex.html&psig=AOvVaw3wbtkeMuy0hlD-dHbBPWbe&ust=1690961650320000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLClypb5uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["The Pearl-Qatar", "Souq Waqif", "Katara Cultural Village"],
-        "bestTimeToVisit": "November to April",
-        "travelTips": [
-          "Admire the luxury residences at The Pearl-Qatar",
-          "Explore the traditional Souq Waqif",
-          "Experience arts and culture at Katara Cultural Village"
-        ]
-      },
-      {
-        "id": 71,
-        "name": "Tokyo, Japan",
-        "description": "A bustling metropolis with a mix of tradition and technology",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FArticles-lAH9mFn54D0k-Japan_new_things_to_do.html&psig=AOvVaw1k89baOra66Ag1V_x5KMXd&ust=1690961702792000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLCAta_5uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Shibuya Crossing", "Tokyo Skytree", "Tsukiji Market"],
-        "bestTimeToVisit": "Spring and Autumn",
-        "travelTips": [
-          "Experience traditional tea ceremony",
-          "Explore Akihabara for electronics and anime",
-          "Try various street foods at food stalls"
-        ]
-      },
-      {
-        "id": 72,
-        "name": "Bangkok, Thailand",
-        "description": "Known for its vibrant street life and cultural landmarks",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fthings-to-do-in-bangkok-thailand%2F&psig=AOvVaw1MnOAeO67rh8syWCb7qMTU&ust=1690961737825000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLjlkcL5uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Grand Palace", "Wat Pho", "Floating Markets"],
-        "bestTimeToVisit": "November to February",
-        "travelTips": [
-          "Marvel at the opulent Grand Palace",
-          "Recline beside the golden Buddha at Wat Pho",
-          "Explore the bustling floating markets"
-        ]
-      },
-      {
-        "id": 73,
-        "name": "Beijing, China",
-        "description": "Home to the iconic Great Wall and Forbidden City",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FBeijing&psig=AOvVaw2A_3kag2jGhuYqvwUgsHFT&ust=1690961774694000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIj44NH5uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Great Wall of China", "Forbidden City", "Temple of Heaven"],
-        "bestTimeToVisit": "September to November and April to June",
-        "travelTips": [
-          "Walk along the majestic Great Wall of China",
-          "Explore the vast complex of the Forbidden City",
-          "Experience tranquility at the Temple of Heaven"
-        ]
-      },
-      {
-        "id": 74,
-        "name": "Seoul, South Korea",
-        "description": "A city with a rich cultural heritage and modernity",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hotels.com%2Fgo%2Fsouth-korea%2Fbest-seoul-things-to-do&psig=AOvVaw1y7HWcdnrbNPQD7rUBI5nP&ust=1690961799782000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNjnmt75uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Gyeongbokgung Palace", "Myeongdong Shopping Street", "N Seoul Tower"],
-        "bestTimeToVisit": "Spring and Autumn",
-        "travelTips": [
-          "Immerse in Korean history at Gyeongbokgung Palace",
-          "Shop for fashion and cosmetics in Myeongdong",
-          "Get panoramic views from N Seoul Tower"
-        ]
-      },
-      {
-        "id": 75,
-        "name": "Shanghai, China",
-        "description": "A global financial hub with impressive skyscrapers",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationsonline.org%2Foneworld%2Fmap%2Fgoogle_map_Shanghai.htm&psig=AOvVaw0cPIO8MmI1jtwnvL1GzqUi&ust=1690961825509000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNiljOr5uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["The Bund", "Yu Garden", "Shanghai Tower"],
-        "bestTimeToVisit": "April to November",
-        "travelTips": [
-          "Stroll along the iconic waterfront of The Bund",
-          "Visit the classical Chinese garden of Yu Garden",
-          "Enjoy panoramic views from Shanghai Tower"
-        ]
-      },
-      {
-        "id": 76,
-        "name": "Kyoto, Japan",
-        "description": "Famous for its traditional temples and gardens",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhandluggageonly.co.uk%2F2017%2F06%2F26%2F14-things-see-visiting-kyoto-japan%2F&psig=AOvVaw0KgRIli4c2bV7QjcsSgBo1&ust=1690961848928000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLCYt__5uoADFQAAAAAdAAAAABAH",
-        "continent":"Asia",
-        "attractions": ["Kiyomizu-dera Temple", "Arashiyama Bamboo Grove", "Fushimi Inari Taisha"],
-        "bestTimeToVisit": "March to May and September to November",
-        "travelTips": [
-          "Admire the wooden architecture of Kiyomizu-dera",
-          "Take a stroll through the enchanting Arashiyama Bamboo Grove",
-          "Explore the thousands of torii gates at Fushimi Inari Taisha"
-        ]
-      },
-      {
-        "id": 77,
-        "name": "Hong Kong, China",
-        "description": "A dynamic city with a stunning skyline and a mix of cultures",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.investopedia.com%2Farticles%2Finvesting%2F121814%2Fhong-kong-vs-china-understand-differences.asp&psig=AOvVaw3JKGUwN1ahCqyE9hDUXzT8&ust=1690961902140000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKik9o76uoADFQAAAAAdAAAAABAI",
-        "continent":"Asia",
-        "attractions": ["Victoria Peak", "Victoria Harbour", "Lan Kwai Fong"],
-        "bestTimeToVisit": "October to December",
-        "travelTips": [
-          "Get a panoramic view from Victoria Peak",
-          "Take a cruise on Victoria Harbour",
-          "Experience the nightlife at Lan Kwai Fong"
-        ]
-      },
-      {
-        "id": 78,
-        "name": "Siem Reap, Cambodia",
-        "description": "Gateway to the ancient ruins of Angkor Wat",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Ftravel%2Farticle%2Fsiem-reap-angkor-wat-world-heritage-guide&psig=AOvVaw0g6GEkstYB_oWjI-0NssKJ&ust=1690961938205000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIiCxJ_6uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Angkor Wat", "Bayon Temple", "Ta Prohm"],
-        "bestTimeToVisit": "November to February",
-        "travelTips": [
-          "Witness the magnificent sunrise at Angkor Wat",
-          "Explore the smiling faces of Bayon Temple",
-          "Discover the nature takeover at Ta Prohm"
-        ]
-      },
-      {
-        "id": 79,
-        "name": "Taipei, Taiwan",
-        "description": "A blend of modern and traditional attractions",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTaipei&psig=AOvVaw2tp72IjPr08EJPnD_dbBz9&ust=1690961963847000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKCE7az6uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Taipei 101", "Shilin Night Market", "National Palace Museum"],
-        "bestTimeToVisit": "March to May and September to November",
-        "travelTips": [
-          "Admire the engineering feat of Taipei 101",
-          "Indulge in street food at Shilin Night Market",
-          "Explore the extensive art collection at National Palace Museum"
-        ]
-      },
-      {
-        "id": 80,
-        "name": "Hanoi, Vietnam",
-        "description": "Known for its charming old quarter and delicious street food",
-        "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FTourism-g293924-Hanoi-Vacations.html&psig=AOvVaw3H0tL7JqOz9MFEML13V9en&ust=1690962001718000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOCd8L36uoADFQAAAAAdAAAAABAD",
-        "continent":"Asia",
-        "attractions": ["Hoan Kiem Lake", "Hanoi Old Quarter", "Ho Chi Minh Mausoleum"],
-        "bestTimeToVisit": "September to November and March to April",
-        "travelTips": [
-          "Take a leisurely walk around Hoan Kiem Lake",
-          "Explore the bustling streets of Hanoi Old Quarter",
-          "Visit the final resting place of Ho Chi Minh"
-        ]
-      }
-    ],
-    "bucketList": []
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "description": "The city of love and lights",
+      "url": "",
+      "continent": "Europe",
+      "attractions": [
+        "Eiffel Tower",
+        "Louvre Museum",
+        "Notre-Dame Cathedral"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Take a Seine River cruise",
+        "Visit Montmartre",
+        "Enjoy French cuisine at local cafes"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "New York City, USA",
+      "description": "The city that never sleeps",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg/1280px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_%28cropped%29.jpg",
+      "continent": "North America",
+      "attractions": [
+        "Central Park",
+        "Times Square",
+        "Statue of Liberty"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Take a Broadway show",
+        "Visit the Empire State Building",
+        "Try famous New York-style pizza"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tokyo, Japan",
+      "description": "The bustling metropolis",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.japanrailpass.com.au%2Ftop-5-free-things-to-do-in-tokyo%2F&psig=AOvVaw0D-EejxNNh1-1pRe0w5ehG&ust=1690960277391000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKix75P0uoADFQAAAAAdAAAAABAE",
+      "continent": "Asia",
+      "attractions": [
+        "Shibuya Crossing",
+        "Tokyo Skytree",
+        "Tsukiji Market"
+      ],
+      "bestTimeToVisit": "Spring and Autumn",
+      "travelTips": [
+        "Experience traditional tea ceremony",
+        "Explore Akihabara for electronics and anime",
+        "Try various street foods at food stalls"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Berlin, Germany",
+      "description": "Offers a mix of history and modernity",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffoodandtravel.com%2Ftravel%2Fgourmet-traveller%2Fin-my-beautiful-neighbourhood&psig=AOvVaw3yLvYU6rH2RJTg5hyr354m&ust=1690960364382000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPDxy7H0uoADFQAAAAAdAAAAABAX",
+      "continent": "Europe",
+      "attractions": [
+        "Brandenburg Gate",
+        "Berlin Wall",
+        "Reichstag Building"
+      ],
+      "bestTimeToVisit": "May to September",
+      "travelTips": [
+        "Visit the iconic Brandenburg Gate",
+        "Explore the remains of the Berlin Wall",
+        "Admire the architecture of Reichstag Building"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Vienna, Austria",
+      "description": "Known for its rich history and classical music heritage",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripsavvy.com%2Fthe-top-things-to-do-in-vienna-austria-4158073&psig=AOvVaw2BKA5Nu5pcq3U7tbnubRm8&ust=1690960434993000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCMCvntf0uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Schönbrunn Palace",
+        "Vienna State Opera",
+        "Belvedere Palace"
+      ],
+      "bestTimeToVisit": "April to October",
+      "travelTips": [
+        "Explore the grandeur of Schönbrunn Palace",
+        "Attend a performance at Vienna State Opera",
+        "Admire the art collection at Belvedere Palace"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Santorini, Greece",
+      "description": "Famous for its beautiful sunsets and white-washed buildings",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kimkim.com%2Fc%2Fhow-many-days-should-you-spend-on-santorini&psig=AOvVaw2r3mRGOSS-DNnE1N-QA31T&ust=1690960485310000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPj_w-70uoADFQAAAAAdAAAAABAI",
+      "continent": "Europe",
+      "attractions": [
+        "Oia",
+        "Fira",
+        "Red Beach"
+      ],
+      "bestTimeToVisit": "April to November",
+      "travelTips": [
+        "Watch the stunning sunsets in Oia",
+        "Explore the charming town of Fira",
+        "Relax on the unique Red Beach"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Athens, Greece",
+      "description": "Offers historical sites like the Acropolis and Parthenon",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FAthens&psig=AOvVaw2cixxVviUeWPPR9qJX1tC0&ust=1690960520580000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOiX-Pv0uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Acropolis",
+        "Parthenon",
+        "Plaka"
+      ],
+      "bestTimeToVisit": "March to May and September to November",
+      "travelTips": [
+        "Explore the ancient ruins of Acropolis",
+        "Admire the iconic Parthenon",
+        "Stroll through the charming streets of Plaka"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Prague, Czech Republic",
+      "description": "A city with stunning architecture and historical landmarks",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fplaces-to-visit-in-prague%2F&psig=AOvVaw2MUoaG59TAqQJaM0CDCkDs&ust=1690960581052000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPCY_pn1uoADFQAAAAAdAAAAABAc",
+      "continent": "Europe",
+      "attractions": [
+        "Prague Castle",
+        "Charles Bridge",
+        "Old Town Square"
+      ],
+      "bestTimeToVisit": "April to October",
+      "travelTips": [
+        "Visit the largest ancient castle in the world - Prague Castle",
+        "Walk across the iconic Charles Bridge",
+        "Experience the vibrant atmosphere of Old Town Square"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Barcelona, Spain",
+      "description": "Famous for its unique architecture and vibrant culture",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fearth.esa.int%2Fweb%2Fearth-watching%2Fimage-of-the-week%2Fcontent%2F-%2Farticle%2Fbarcelona-spain-landsat%2F&psig=AOvVaw0jDBFk_LpE63QQjXemyWg1&ust=1690960633724000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJCVj7T1uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Sagrada Família",
+        "Park Güell",
+        "La Rambla"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Marvel at the unique architecture of Sagrada Família",
+        "Relax in the beautiful Park Güell",
+        "Take a stroll along the vibrant La Rambla"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Amsterdam, Netherlands",
+      "description": "Known for its picturesque canals and cultural attractions",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationsonline.org%2Foneworld%2Fmap%2Fgoogle_map_Amsterdam.htm&psig=AOvVaw0KGeUwslH2n-BwfpUJl4Ec&ust=1690960668807000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIjMlsP1uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Van Gogh Museum",
+        "Anne Frank House",
+        "Rijksmuseum"
+      ],
+      "bestTimeToVisit": "April to October",
+      "travelTips": [
+        "Explore the art collection at Van Gogh Museum",
+        "Learn about history at Anne Frank House",
+        "Admire masterpieces at the Rijksmuseum"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "London, United Kingdom",
+      "description": "A city with a rich history and iconic landmarks",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sothebysrealty.com%2Feng%2Fdestinations%2Flondon-england-united-kingdom&psig=AOvVaw0SKxp3JHt8Px0I9efwYj8c&ust=1690960729374000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKCr6-H1uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Buckingham Palace",
+        "Big Ben",
+        "British Museum"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Watch the Changing of the Guard at Buckingham Palace",
+        "Visit the famous clock tower - Big Ben",
+        "Explore the extensive collection at the British Museum"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Barcelona, Spain",
+      "description": "A city known for its art and architecture",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Fuk%2Flifestyle%2Ftravel%2Fg42737415%2Fspain-holiday-destinations%2F&psig=AOvVaw1kEAZPyzfeBiXsKc_4hlEG&ust=1690960772392000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPjMufT1uoADFQAAAAAdAAAAABAX",
+      "continent": "Europe",
+      "attractions": [
+        "Sagrada Família",
+        "Park Güell",
+        "La Rambla"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Marvel at the unique architecture of Sagrada Família",
+        "Relax in the beautiful Park Güell",
+        "Take a stroll along the vibrant La Rambla"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Cairo, Egypt",
+      "description": "Home to the iconic Pyramids of Giza and the Sphinx",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FTourism-g294201-Cairo_Cairo_Governorate-Vacations.html&psig=AOvVaw00YPva9IBl0J1mNv7P9Txz&ust=1690960823960000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPia1Yz2uoADFQAAAAAdAAAAABAI",
+      "continent": "Africa",
+      "attractions": [
+        "Pyramids of Giza",
+        "The Sphinx",
+        "Khan El Khalili Bazaar"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Explore the ancient wonders of the Pyramids",
+        "Visit the fascinating Egyptian Museum",
+        "Experience a traditional felucca ride on the Nile River"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Marrakech, Morocco",
+      "description": "Known for its vibrant markets and historic architecture",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kimkim.com%2Fc%2Fhighlights-morocco-beach-desert-fes-marrakech-sahara-7-days&psig=AOvVaw2yg6sbPwuABv24N-eCia8y&ust=1690960861624000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCMjS3KH2uoADFQAAAAAdAAAAABAJ",
+      "continent": "Africa",
+      "attractions": [
+        "Jemaa el-Fnaa",
+        "Bahia Palace",
+        "Majorelle Garden"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Get lost in the lively souks of Jemaa el-Fnaa",
+        "Admire the beautiful architecture of Bahia Palace",
+        "Relax in the serene Majorelle Garden"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Cape Town, South Africa",
+      "description": "Famous for Table Mountain and the Cape Peninsula",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FCape-Town&psig=AOvVaw05wUKjH4PaY2suM-p4ENzP&ust=1690960915223000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLjsnrj2uoADFQAAAAAdAAAAABAD",
+      "continent": "Africa",
+      "attractions": [
+        "Table Mountain",
+        "Cape of Good Hope",
+        "Kirstenbosch National Botanical Garden"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Take a cable car ride to Table Mountain",
+        "Visit the Cape Winelands for wine tasting",
+        "Explore the scenic Cape Peninsula"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Nairobi, Kenya",
+      "description": "A gateway to safaris and wildlife reserves like Maasai Mara",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftourscanner.com%2Fblog%2Ffun-things-to-do-in-nairobi%2F&psig=AOvVaw0n86Be1Bi7hR1haSTOFYMp&ust=1690960975638000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPj4qNb2uoADFQAAAAAdAAAAABAD",
+      "continent": "Africa",
+      "attractions": [
+        "Maasai Mara National Reserve",
+        "David Sheldrick Wildlife Trust",
+        "Giraffe Centre"
+      ],
+      "bestTimeToVisit": "January to March and July to October",
+      "travelTips": [
+        "Embark on a thrilling safari in Maasai Mara",
+        "Visit the David Sheldrick Wildlife Trust for elephant orphanage",
+        "Feed giraffes at the Giraffe Centre"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Victoria Falls, Zimbabwe, and Zambia",
+      "description": "One of the largest waterfalls in the world",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FAttraction_Review-g293761-d15224353-Reviews-Explore_Victoria_Falls-Victoria_Falls_Matabeleland_North_Province.html&psig=AOvVaw1Rz39pWrOOwVu4QHocvtbn&ust=1690961013510000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCPjfmOz2uoADFQAAAAAdAAAAABAD",
+      "continent": "Africa",
+      "attractions": [
+        "Victoria Falls Bridge",
+        "Devil's Pool",
+        "Zambezi River Cruise"
+      ],
+      "bestTimeToVisit": "February to May",
+      "travelTips": [
+        "Marvel at the breathtaking views of Victoria Falls",
+        "Take a dip in the natural pool at Devil's Pool",
+        "Enjoy a scenic Zambezi River Cruise"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Serengeti National Park, Tanzania",
+      "description": "Renowned for its annual wildebeest migration",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpeakvisor.com%2Fpark%2Fserengeti-national-park.html&psig=AOvVaw0qIvErLEqiYFYI4aZU9E5Z&ust=1690961052653000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJj87_n2uoADFQAAAAAdAAAAABAI",
+      "continent": "Africa",
+      "attractions": [
+        "Great Migration",
+        "Ngorongoro Crater",
+        "Maasai Village Visit"
+      ],
+      "bestTimeToVisit": "June to September",
+      "travelTips": [
+        "Witness the incredible Great Migration of wildebeests",
+        "Explore the unique ecosystem of Ngorongoro Crater",
+        "Experience Maasai culture at a local village"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Luxor, Egypt",
+      "description": "Offers impressive ancient temples and historical sites",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.touristisrael.com%2Fluxor-egypt%2F33438%2F&psig=AOvVaw0C8x_jQo3W4gSLXaXhE-ht&ust=1690961082235000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIjhron3uoADFQAAAAAdAAAAABAD",
+      "continent": "Africa",
+      "attractions": [
+        "Karnak Temple",
+        "Valley of the Kings",
+        "Luxor Temple"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Discover the vast complex of Karnak Temple",
+        "Explore the tombs in the Valley of the Kings",
+        "Admire the beauty of Luxor Temple at night"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Zanzibar, Tanzania",
+      "description": "A beautiful island known for its pristine beaches",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeafricatoday.com%2Ftravel-guides%2F5-spectacular-vacation-hotels-in-zanzibar-island-tanzania%2F&psig=AOvVaw1xEoMgc0Pzcx6OZ29sLUsO&ust=1690961176932000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCID5krX3uoADFQAAAAAdAAAAABAJ",
+      "continent": "Africa",
+      "attractions": [
+        "Stone Town",
+        "Nungwi Beach",
+        "Prison Island"
+      ],
+      "bestTimeToVisit": "June to October and December to February",
+      "travelTips": [
+        "Wander through the historic alleys of Stone Town",
+        "Relax on the idyllic beaches of Nungwi",
+        "Visit the giant tortoises on Prison Island"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Kruger National Park, South Africa",
+      "description": "One of Africa's best game reserves",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FKruger_National_Park&psig=AOvVaw0aJCZd1VTp8yWfuo3fAjdi&ust=1690961215111000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJCPw8f3uoADFQAAAAAdAAAAABAD",
+      "continent": "Africa",
+      "attractions": [
+        "Big Five Safari",
+        "Blyde River Canyon",
+        "Skukuza Golf Course"
+      ],
+      "bestTimeToVisit": "May to September",
+      "travelTips": [
+        "Embark on an exciting Big Five safari adventure",
+        "Marvel at the stunning views of Blyde River Canyon",
+        "Play golf surrounded by wildlife at Skukuza Golf Course"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Essaouira, Morocco",
+      "description": "A coastal town with a charming medina and sandy beaches",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.independent.co.uk%2Ftravel%2Fnorth-africa-middle-east%2Fessaouira-travel-guide-best-hotels-city-restaurants-things-to-do-a9217161.html&psig=AOvVaw0P1VOHvzpxN1VgTzWLEMNU&ust=1690961269383000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJiFr-H3uoADFQAAAAAdAAAAABAH",
+      "continent": "Africa",
+      "attractions": [
+        "Medina of Essaouira",
+        "Essaouira Beach",
+        "Scala de la Ville"
+      ],
+      "bestTimeToVisit": "April to June and September to November",
+      "travelTips": [
+        "Stroll through the narrow streets of Medina of Essaouira",
+        "Relax on the picturesque Essaouira Beach",
+        "Explore the historic Scala de la Ville fortification"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Dubai, United Arab Emirates",
+      "description": "Known for its modern architecture and luxury shopping",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.arabianbusiness.com%2Findustries%2Freal-estate%2Fdubai-abu-dhabi-real-estate-markets-cash-in-as-soaring-investor-confidence-fuels-uae-off-plan-property-boom&psig=AOvVaw1YScDqDGM1qtU17TuvYyrg&ust=1690961304237000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIDcsvP3uoADFQAAAAAdAAAAABAD",
+      "continent": "Middle East",
+      "attractions": [
+        "Burj Khalifa",
+        "Dubai Mall",
+        "Palm Jumeirah"
+      ],
+      "bestTimeToVisit": "November to April",
+      "travelTips": [
+        "Visit the observation decks of Burj Khalifa",
+        "Indulge in retail therapy at Dubai Mall",
+        "Relax on the man-made Palm Jumeirah island"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Istanbul, Turkey",
+      "description": "A city that bridges Europe and Asia with a rich history",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.timeout.com%2Fistanbul%2Fthings-to-do%2Fbest-things-to-do-in-istanbul&psig=AOvVaw07DqzoY--SR8Gvv09tf8of&ust=1690961364432000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwi4qfWM-LqAAxXmVvEDHRMWCbMQjRx6BAgAEAw",
+      "continent": "Europe",
+      "attractions": [
+        "Hagia Sophia",
+        "Blue Mosque",
+        "Topkapi Palace"
+      ],
+      "bestTimeToVisit": "April to June and September to November",
+      "travelTips": [
+        "Marvel at the beauty of Hagia Sophia",
+        "Visit the iconic Blue Mosque",
+        "Explore the opulent Topkapi Palace"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Petra, Jordan",
+      "description": "Home to the ancient archaeological site of Petra",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Ftravel%2Fworld-heritage%2Farticle%2Fpetra-jordan&psig=AOvVaw3r0fOFoODj1IedQ0dPDkau&ust=1690961392391000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCMjQs5v4uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Al-Khazneh",
+        "The Siq",
+        "The Monastery"
+      ],
+      "bestTimeToVisit": "March to May and September to November",
+      "travelTips": [
+        "Walk through the narrow gorge of The Siq",
+        "Discover the Treasury (Al-Khazneh) at Petra",
+        "Climb up to the impressive Monastery"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Jerusalem, Israel/Palestine",
+      "description": "A city of historical and religious significance",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.history.com%2Ftopics%2Fancient-middle-east%2Fhistory-of-jerusalem&psig=AOvVaw1KZfGU1WJ68muAqzygSKpq&ust=1690961435945000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJj3lrD4uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Western Wall",
+        "Church of the Holy Sepulchre",
+        "Dome of the Rock"
+      ],
+      "bestTimeToVisit": "April to May and October to November",
+      "travelTips": [
+        "Visit the Western Wall, a sacred Jewish site",
+        "Explore the Church of the Holy Sepulchre",
+        "Admire the iconic Dome of the Rock"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Abu Dhabi, United Arab Emirates",
+      "description": "The capital of the UAE with cultural landmarks",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.earthtrekkers.com%2Fphoto-tour-abu-dhabi-dubai%2F&psig=AOvVaw3fx_ELp5QHaEFCMzVG-IOd&ust=1690961466060000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNiU9b74uoADFQAAAAAdAAAAABAD",
+      "continent": "Middle East",
+      "attractions": [
+        "Sheikh Zayed Grand Mosque",
+        "Louvre Abu Dhabi",
+        "Ferrari World"
+      ],
+      "bestTimeToVisit": "November to April",
+      "travelTips": [
+        "Marvel at the grandeur of Sheikh Zayed Grand Mosque",
+        "Explore the impressive art collection at Louvre Abu Dhabi",
+        "Enjoy thrilling rides at Ferrari World"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Cairo, Egypt",
+      "description": "Offers ancient wonders like the Pyramids of Giza",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.egypttoursportal.com%2Fcairo-city%2F&psig=AOvVaw33aMdmCUA7Dj3_Bysxky41&ust=1690961496078000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJjcxc34uoADFQAAAAAdAAAAABAD",
+      "continent": "Africa",
+      "attractions": [
+        "Pyramids of Giza",
+        "The Sphinx",
+        "Khan El Khalili Bazaar"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Explore the ancient wonders of the Pyramids",
+        "Visit the fascinating Egyptian Museum",
+        "Experience a traditional felucca ride on the Nile River"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Muscat, Oman",
+      "description": "Known for its stunning landscapes and traditional souks",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.travelawaits.com%2F2555430%2Fbest-things-to-see-and-do-in-muscat-oman%2F&psig=AOvVaw2ToutBxKModXhmHA7f92YC&ust=1690961527921000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCJjI8tz4uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Sultan Qaboos Grand Mosque",
+        "Mutrah Souq",
+        "Royal Opera House"
+      ],
+      "bestTimeToVisit": "November to February",
+      "travelTips": [
+        "Admire the architecture of Sultan Qaboos Grand Mosque",
+        "Shop for traditional goods at Mutrah Souq",
+        "Attend a performance at the Royal Opera House"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Marrakech, Morocco",
+      "description": "A vibrant city in North Africa known for its markets",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Ftravel%2Farticle%2Ftop-activities-things-to-do-37&psig=AOvVaw2DkY0Eg8tC5XQhJ2PaWlQt&ust=1690961574494000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKDssfL4uoADFQAAAAAdAAAAABAD",
+      "continent": "Africa",
+      "attractions": [
+        "Jemaa el-Fnaa",
+        "Bahia Palace",
+        "Majorelle Garden"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Get lost in the lively souks of Jemaa el-Fnaa",
+        "Admire the beautiful architecture of Bahia Palace",
+        "Relax in the serene Majorelle Garden"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Amman, Jordan",
+      "description": "A blend of ancient ruins and modernity",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.afar.com%2Fmagazine%2Fa-road-trip-through-jordan-from-city-to-desert-to-sea&psig=AOvVaw1-JOYdXff1Fie_iP2deGmY&ust=1690961598653000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOCrwIn5uoADFQAAAAAdAAAAABAD",
+      "continent": "Europe",
+      "attractions": [
+        "Amman Citadel",
+        "Roman Theatre",
+        "Rainbow Street"
+      ],
+      "bestTimeToVisit": "March to May and September to November",
+      "travelTips": [
+        "Explore the historical Amman Citadel",
+        "Visit the well-preserved Roman Theatre",
+        "Stroll along the vibrant Rainbow Street"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Doha, Qatar",
+      "description": "A modern city with futuristic architecture",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cnn.com%2Ftravel%2Farticle%2Flusail-qatar%2Findex.html&psig=AOvVaw3wbtkeMuy0hlD-dHbBPWbe&ust=1690961650320000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLClypb5uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "The Pearl-Qatar",
+        "Souq Waqif",
+        "Katara Cultural Village"
+      ],
+      "bestTimeToVisit": "November to April",
+      "travelTips": [
+        "Admire the luxury residences at The Pearl-Qatar",
+        "Explore the traditional Souq Waqif",
+        "Experience arts and culture at Katara Cultural Village"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Tokyo, Japan",
+      "description": "A bustling metropolis with a mix of tradition and technology",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FArticles-lAH9mFn54D0k-Japan_new_things_to_do.html&psig=AOvVaw1k89baOra66Ag1V_x5KMXd&ust=1690961702792000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLCAta_5uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Shibuya Crossing",
+        "Tokyo Skytree",
+        "Tsukiji Market"
+      ],
+      "bestTimeToVisit": "Spring and Autumn",
+      "travelTips": [
+        "Experience traditional tea ceremony",
+        "Explore Akihabara for electronics and anime",
+        "Try various street foods at food stalls"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Bangkok, Thailand",
+      "description": "Known for its vibrant street life and cultural landmarks",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fthings-to-do-in-bangkok-thailand%2F&psig=AOvVaw1MnOAeO67rh8syWCb7qMTU&ust=1690961737825000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLjlkcL5uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Grand Palace",
+        "Wat Pho",
+        "Floating Markets"
+      ],
+      "bestTimeToVisit": "November to February",
+      "travelTips": [
+        "Marvel at the opulent Grand Palace",
+        "Recline beside the golden Buddha at Wat Pho",
+        "Explore the bustling floating markets"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Beijing, China",
+      "description": "Home to the iconic Great Wall and Forbidden City",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fplace%2FBeijing&psig=AOvVaw2A_3kag2jGhuYqvwUgsHFT&ust=1690961774694000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIj44NH5uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Great Wall of China",
+        "Forbidden City",
+        "Temple of Heaven"
+      ],
+      "bestTimeToVisit": "September to November and April to June",
+      "travelTips": [
+        "Walk along the majestic Great Wall of China",
+        "Explore the vast complex of the Forbidden City",
+        "Experience tranquility at the Temple of Heaven"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Seoul, South Korea",
+      "description": "A city with a rich cultural heritage and modernity",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hotels.com%2Fgo%2Fsouth-korea%2Fbest-seoul-things-to-do&psig=AOvVaw1y7HWcdnrbNPQD7rUBI5nP&ust=1690961799782000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNjnmt75uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Gyeongbokgung Palace",
+        "Myeongdong Shopping Street",
+        "N Seoul Tower"
+      ],
+      "bestTimeToVisit": "Spring and Autumn",
+      "travelTips": [
+        "Immerse in Korean history at Gyeongbokgung Palace",
+        "Shop for fashion and cosmetics in Myeongdong",
+        "Get panoramic views from N Seoul Tower"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Shanghai, China",
+      "description": "A global financial hub with impressive skyscrapers",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationsonline.org%2Foneworld%2Fmap%2Fgoogle_map_Shanghai.htm&psig=AOvVaw0cPIO8MmI1jtwnvL1GzqUi&ust=1690961825509000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNiljOr5uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "The Bund",
+        "Yu Garden",
+        "Shanghai Tower"
+      ],
+      "bestTimeToVisit": "April to November",
+      "travelTips": [
+        "Stroll along the iconic waterfront of The Bund",
+        "Visit the classical Chinese garden of Yu Garden",
+        "Enjoy panoramic views from Shanghai Tower"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Kyoto, Japan",
+      "description": "Famous for its traditional temples and gardens",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhandluggageonly.co.uk%2F2017%2F06%2F26%2F14-things-see-visiting-kyoto-japan%2F&psig=AOvVaw0KgRIli4c2bV7QjcsSgBo1&ust=1690961848928000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLCYt__5uoADFQAAAAAdAAAAABAH",
+      "continent": "Asia",
+      "attractions": [
+        "Kiyomizu-dera Temple",
+        "Arashiyama Bamboo Grove",
+        "Fushimi Inari Taisha"
+      ],
+      "bestTimeToVisit": "March to May and September to November",
+      "travelTips": [
+        "Admire the wooden architecture of Kiyomizu-dera",
+        "Take a stroll through the enchanting Arashiyama Bamboo Grove",
+        "Explore the thousands of torii gates at Fushimi Inari Taisha"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Hong Kong, China",
+      "description": "A dynamic city with a stunning skyline and a mix of cultures",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.investopedia.com%2Farticles%2Finvesting%2F121814%2Fhong-kong-vs-china-understand-differences.asp&psig=AOvVaw3JKGUwN1ahCqyE9hDUXzT8&ust=1690961902140000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKik9o76uoADFQAAAAAdAAAAABAI",
+      "continent": "Asia",
+      "attractions": [
+        "Victoria Peak",
+        "Victoria Harbour",
+        "Lan Kwai Fong"
+      ],
+      "bestTimeToVisit": "October to December",
+      "travelTips": [
+        "Get a panoramic view from Victoria Peak",
+        "Take a cruise on Victoria Harbour",
+        "Experience the nightlife at Lan Kwai Fong"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Siem Reap, Cambodia",
+      "description": "Gateway to the ancient ruins of Angkor Wat",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nationalgeographic.com%2Ftravel%2Farticle%2Fsiem-reap-angkor-wat-world-heritage-guide&psig=AOvVaw0g6GEkstYB_oWjI-0NssKJ&ust=1690961938205000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCIiCxJ_6uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Angkor Wat",
+        "Bayon Temple",
+        "Ta Prohm"
+      ],
+      "bestTimeToVisit": "November to February",
+      "travelTips": [
+        "Witness the magnificent sunrise at Angkor Wat",
+        "Explore the smiling faces of Bayon Temple",
+        "Discover the nature takeover at Ta Prohm"
+      ]
+    },
+    {
+      "id": 79,
+      "name": "Taipei, Taiwan",
+      "description": "A blend of modern and traditional attractions",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTaipei&psig=AOvVaw2tp72IjPr08EJPnD_dbBz9&ust=1690961963847000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKCE7az6uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Taipei 101",
+        "Shilin Night Market",
+        "National Palace Museum"
+      ],
+      "bestTimeToVisit": "March to May and September to November",
+      "travelTips": [
+        "Admire the engineering feat of Taipei 101",
+        "Indulge in street food at Shilin Night Market",
+        "Explore the extensive art collection at National Palace Museum"
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Hanoi, Vietnam",
+      "description": "Known for its charming old quarter and delicious street food",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tripadvisor.com%2FTourism-g293924-Hanoi-Vacations.html&psig=AOvVaw3H0tL7JqOz9MFEML13V9en&ust=1690962001718000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCOCd8L36uoADFQAAAAAdAAAAABAD",
+      "continent": "Asia",
+      "attractions": [
+        "Hoan Kiem Lake",
+        "Hanoi Old Quarter",
+        "Ho Chi Minh Mausoleum"
+      ],
+      "bestTimeToVisit": "September to November and March to April",
+      "travelTips": [
+        "Take a leisurely walk around Hoan Kiem Lake",
+        "Explore the bustling streets of Hanoi Old Quarter",
+        "Visit the final resting place of Ho Chi Minh"
+      ]
+    }
+  ],
+  "bucketList": [
+    {
+      "id": 1,
+      "name": "Paris, France",
+      "description": "The city of love and lights",
+      "url": "",
+      "continent": "Europe",
+      "attractions": [
+        "Eiffel Tower",
+        "Louvre Museum",
+        "Notre-Dame Cathedral"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Take a Seine River cruise",
+        "Visit Montmartre",
+        "Enjoy French cuisine at local cafes"
+      ]
+    },
+    {
+      "name": "Mx.Monkey",
+      "description": "ggg",
+      "image": "htp",
+      "id": 2
+    }
+  ]
 }

@@ -57,7 +57,7 @@ const AddDestination = () => {
             type="text"
             id="image"
             name="image"
-            value={destination.image}
+            value={destination.url}
             onChange={handleChange}
           />
         </div>
