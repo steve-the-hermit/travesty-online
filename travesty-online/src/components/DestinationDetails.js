@@ -38,6 +38,7 @@ const DestinationDetails = () => {
       <h2>{destination.name}</h2>
       <img src={destination.image} alt={destination.name} />
       <p>{destination.description}</p>
+      <p>Best time to visit: {destination.bestTimeToVisit}</p>
       <button onClick={handleAddToBucketList}>Add to Bucket List</button>
       <Link to="/bucketlist">Back to Bucket List</Link>
     </div>
