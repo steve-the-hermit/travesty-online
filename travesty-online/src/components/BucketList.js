@@ -26,7 +26,7 @@ const BucketList = () => {
           <li key={destination.id}>
             <Link to={`/destination/${destination.id}`}>
               <h3>{destination.name}</h3>
-              <img src={destination.image} alt={destination.name} />
+              <img src={destination.url} alt={destination.name} />
             </Link>
           </li>
         ))}
