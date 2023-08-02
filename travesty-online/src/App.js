@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import DestinationsList from './components/DestinationsList';
+import DestinationDetails from './components/DestinationDetails';
+import BucketList from './components/BucketList';
+import AddDestination from './components/AddDestination';
+import SearchComponent from './components/SearchComponent';
+import { getDestinations } from './components/api'; 
+
+
 
 function App() {
+  const [ destinations, setDestinations] = React.useState([]);
+
+  React.useEffect(() => {
+    const fetchDestinations = async () => {
+      try {
+        const destinationsData = await getDestinations();
+        setDestinations(destinationsData);
+      } catch (error) {
+        console.error('Error fetching destinations:', error);
+      }
+    };
+    fetchDestinations();
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<DestinationsList />} />
+          <Route path="/destination/:id" element={<DestinationDetails />} />
+          <Route path="/bucketlist" element={<BucketList />} />
+          <Route path="/add" element={<AddDestination />} />
+          <Route path="/search" element={<SearchComponent />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
