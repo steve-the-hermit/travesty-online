@@ -42,7 +42,8 @@ const DestinationsList = () => {
               <h3>{destination.name}</h3>
               <p>{destination.description}</p>
               <Link to={`/destination/${destination.id}`}>
-              <img src={destination.url} alt={destination.name} />
+                <h3>{destination.name}</h3>
+                <img src={destination.image} alt={destination.name} />
               </Link>
               
             </li>
