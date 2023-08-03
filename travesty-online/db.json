@@ -598,7 +598,7 @@
       "id": 72,
       "name": "Bangkok, Thailand",
       "description": "Known for its vibrant street life and cultural landmarks",
-      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftraveltriangle.com%2Fblog%2Fthings-to-do-in-bangkok-thailand%2F&psig=AOvVaw1MnOAeO67rh8syWCb7qMTU&ust=1690961737825000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCLjlkcL5uoADFQAAAAAdAAAAABAD",
+      "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.taste.com.au%2Farticles%2Fdiscover-thai-cities-beyond-bangkok%2Flwu2fpdw&psig=AOvVaw1Ezr-fyeiG_Ll2Fd99R4j5&ust=1691156093532000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMCZy8TNwIADFQAAAAAdAAAAABAE",
       "continent": "Asia",
       "attractions": [
         "Grand Palace",
@@ -759,28 +759,112 @@
   ],
   "bucketList": [
     {
-      "id": 54,
-      "name": "Nairobi, Kenya",
-      "description": "A gateway to safaris and wildlife reserves like Maasai Mara",
-      "url": "https://media.gettyimages.com/id/157378564/photo/nairobi-city-aerial.jpg?s=612x612&w=0&k=20&c=rAE7b6R_uIE8jUeoCaxQYZ6XnEX8eJsDq9jLFZm7XMs=",
-      "continent": "Africa",
+      "id": 1,
+      "name": "Prague, Czech Republic",
+      "description": "A city with stunning architecture and historical landmarks",
+      "url": "https://media.gettyimages.com/id/628365610/photo/vltava-river-and-charles-bridge-in-prague.jpg?s=612x612&w=0&k=20&c=SNKczvBcP0ND6sgWS589cIc0aTuOTcNLv-3QgFBILFg=",
+      "continent": "Europe",
       "attractions": [
-        "Maasai Mara National Reserve",
-        "David Sheldrick Wildlife Trust",
-        "Giraffe Centre"
+        "Prague Castle",
+        "Charles Bridge",
+        "Old Town Square"
       ],
-      "bestTimeToVisit": "January to March and July to October",
+      "bestTimeToVisit": "April to October",
       "travelTips": [
-        "Embark on a thrilling safari in Maasai Mara",
-        "Visit the David Sheldrick Wildlife Trust for elephant orphanage",
-        "Feed giraffes at the Giraffe Centre"
+        "Visit the largest ancient castle in the world - Prague Castle",
+        "Walk across the iconic Charles Bridge",
+        "Experience the vibrant atmosphere of Old Town Square"
       ]
     },
     {
-      "name": "nai",
-      "description": "null",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.charactour.com%2Fhub%2Fcharacters%2Fview%2FLightning-McQueen.Cars&psig=AOvVaw3GZuo9QHqrPnuCfnbadRX4&ust=1687539527124000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCIC6guKs1_8CFQAAAAAdAAAAABAE",
-      "id": 55
+      "id": 2,
+      "name": "Barcelona, Spain",
+      "description": "Famous for its unique architecture and vibrant culture",
+      "url": "https://media.gettyimages.com/id/1386922276/photo/barcelona-at-sunrise-viewed-from-park-guell-barcelona-catalonia-spain.jpg?s=612x612&w=0&k=20&c=QHs7k9uZ4-NUAeiq5gsI3lLermWmUGYgpPnDIL9sCbw=",
+      "continent": "Europe",
+      "attractions": [
+        "Sagrada Família",
+        "Park Güell",
+        "La Rambla"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Marvel at the unique architecture of Sagrada Família",
+        "Relax in the beautiful Park Güell",
+        "Take a stroll along the vibrant La Rambla"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Amsterdam, Netherlands",
+      "description": "Known for its picturesque canals and cultural attractions",
+      "url": "https://media.gettyimages.com/id/143149313/photo/herengracht-canal.jpg?s=612x612&w=0&k=20&c=FV05V2Q0pceJlgYN4u1W0R2tmlnVvjOpTqaeYqRxs3M=",
+      "continent": "Europe",
+      "attractions": [
+        "Van Gogh Museum",
+        "Anne Frank House",
+        "Rijksmuseum"
+      ],
+      "bestTimeToVisit": "April to October",
+      "travelTips": [
+        "Explore the art collection at Van Gogh Museum",
+        "Learn about history at Anne Frank House",
+        "Admire masterpieces at the Rijksmuseum"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "London, United Kingdom",
+      "description": "A city with a rich history and iconic landmarks",
+      "url": "https://media.gettyimages.com/id/520402970/photo/houses-of-parliament-london-england-uk.jpg?s=612x612&w=0&k=20&c=JwIdvcCtnrd1HOC0OJeCUyl6ILcaUMy2BXhHX5SIgjM=",
+      "continent": "Europe",
+      "attractions": [
+        "Buckingham Palace",
+        "Big Ben",
+        "British Museum"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Watch the Changing of the Guard at Buckingham Palace",
+        "Visit the famous clock tower - Big Ben",
+        "Explore the extensive collection at the British Museum"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Barcelona, Spain",
+      "description": "A city known for its art and architecture",
+      "url": "https://media.gettyimages.com/id/1386922276/photo/barcelona-at-sunrise-viewed-from-park-guell-barcelona-catalonia-spain.jpg?s=612x612&w=0&k=20&c=QHs7k9uZ4-NUAeiq5gsI3lLermWmUGYgpPnDIL9sCbw=",
+      "continent": "Europe",
+      "attractions": [
+        "Sagrada Família",
+        "Park Güell",
+        "La Rambla"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Marvel at the unique architecture of Sagrada Família",
+        "Relax in the beautiful Park Güell",
+        "Take a stroll along the vibrant La Rambla"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cairo, Egypt",
+      "description": "Home to the iconic Pyramids of Giza and the Sphinx",
+      "url": "https://media.gettyimages.com/id/1085205362/photo/giza-egypt-pyramids-in-sunset-scene-wonders-of-the-world.jpg?s=612x612&w=0&k=20&c=T927Ddp0A_cXxzh0CGGnbTyJP2-wUf412Yve1g-_L_w=",
+      "continent": "Africa",
+      "attractions": [
+        "Pyramids of Giza",
+        "The Sphinx",
+        "Khan El Khalili Bazaar"
+      ],
+      "bestTimeToVisit": "Spring and Fall",
+      "travelTips": [
+        "Explore the ancient wonders of the Pyramids",
+        "Visit the fascinating Egyptian Museum",
+        "Experience a traditional felucca ride on the Nile River"
+      ]
     }
   ]
 }

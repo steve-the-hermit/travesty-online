@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Fix the import statement for useHistory
+import { useNavigate } from 'react-router-dom';
 import { addDestinationToBucketList } from './api';
+import NavBar from './NavBar';
 
 const AddDestination = () => {
-  const navigate = useNavigate(); // Use useHistory here
+  const navigate = useNavigate();
 
   const [destination, setDestination] = useState({
     name: '',
@@ -27,42 +28,41 @@ const AddDestination = () => {
       });
   };
 
-
   return (
     <div>
-      <h2>Add Destination</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
+      <NavBar />
+      <h3>Add Destination</h3>
+      <section class="section_form">
+        <form id="consultation-form" class="feed-form" onSubmit={handleSubmit}>
           <input
+            required
+            placeholder="Name"
             type="text"
-            id="name"
             name="name"
+            onChange={handleChange}
             value={destination.name}
-            onChange={handleChange}
           />
-        </div>
-        <div>
-          <label htmlFor="description">Description:</label>
-          <textarea
-            id="description"
-            name="description"
-            value={destination.description}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
-          <label htmlFor="image">Image URL:</label>
           <input
+            required
+            placeholder="Description"
             type="text"
-            id="image"
-            name="image"
-            value={destination.url}
+            name="description"
             onChange={handleChange}
+            value={destination.description}
           />
-        </div>
-        <button type="submit">Add to Bucket List</button>
-      </form>
+          <input
+            required
+            placeholder="Image URL"
+            type="text"
+            name="image"
+            onChange={handleChange}
+            value={destination.image}
+          />
+          <button className="button_submit" type="submit">
+            Add
+          </button>
+        </form>
+      </section>
     </div>
   );
 };

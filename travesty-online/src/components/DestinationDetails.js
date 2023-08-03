@@ -30,7 +30,6 @@ const DestinationDetails = () => {
         });
     }
   };
-
   if (!destination) {
     return <div>Loading...</div>;
   }
@@ -39,22 +38,29 @@ const DestinationDetails = () => {
 
   return (
     <div>
-      <h2>{destination.name}</h2>
-      <img src={destination.url} alt={destination.name} />
-      <p>{destination.description}</p>
-      <div className="attractions">
-        <h3>Popular Attractions:</h3>
-        <ul className="attractions-list">
-          {attractionsArray.map((attraction) => (
-            <li key={attraction}>{attraction.trim()}</li>
-          ))}
-          </ul>
-          </div>
-      <p>{destination.attractions}</p>
-      <p>Best time to visit: {destination.bestTimeToVisit}</p>
-      <p>Travel tips: <li>{destination.travelTips}</li></p>
-      <button onClick={handleAddToBucketList}>Add to Bucket List</button>
-      <Link to="/bucketlist">Back to Bucket List</Link>
+      <h1>{destination.name}</h1>
+      <div className="card-container-details">
+            <div key={destination.id} className="card-details">
+              <div className="image-details">
+                <img src={destination.url} alt={destination.name} />
+              </div>
+              <div className="content-details">
+                  <h4 className="title-details">{destination.description}</h4>
+                <p className="desc-details">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores,
+                  possimus pariatur animi temporibus nesciunt praesentium
+                </p>
+                <h4>Popular Attractions:</h4>
+                <span className='details-attraction'>{destination.attractions}</span>
+                <h4>Travel tips:</h4>
+                <span className='details-attraction'>{destination.travelTips}</span>
+                <h4>Best time to visit: </h4>
+                <span className='details-attraction'>{destination.bestTimeToVisit}</span>
+              </div>
+            </div>
+      </div>
+      {/* <button className='details-btn'onClick={handleAddToBucketList}>Add to Bucket List</button> */}
+      <button className='details-btn' ><Link to="/">Back to home</Link></button>
     </div>
   );
 };
