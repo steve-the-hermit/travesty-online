@@ -4,7 +4,6 @@ import { fetchBucketList } from './api';
 
 const BucketList = () => {
   const [bucketList, setBucketList] = useState([]);
-
   useEffect(() => {
     fetchBucketList()
       .then((data) => {

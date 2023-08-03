@@ -5,9 +5,7 @@ import DestinationDetails from './components/DestinationDetails';
 import BucketList from './components/BucketList';
 import AddDestination from './components/AddDestination';
 import SearchComponent from './components/SearchComponent';
-import { getDestinations } from './components/api'; 
-
-
+import { getDestinations } from './components/api';
 
 function App() {
   const [ destinations, setDestinations] = React.useState([]);

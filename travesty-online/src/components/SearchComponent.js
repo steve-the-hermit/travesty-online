@@ -9,7 +9,6 @@ const SearchComponent = () => {
   const handleChange = (e) => {
     setSearchQuery(e.target.value);
   };
-
   const handleSearch = () => {
     getDestinations()
       .then((data) => {
