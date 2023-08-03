@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DestinationsList from './components/DestinationsList';
 import DestinationDetails from './components/DestinationDetails';
@@ -6,6 +7,8 @@ import BucketList from './components/BucketList';
 import AddDestination from './components/AddDestination';
 import SearchComponent from './components/SearchComponent';
 import { getDestinations } from './components/api';
+
+
 
 function App() {
   const [ destinations, setDestinations] = React.useState([]);
@@ -22,8 +25,9 @@ function App() {
     fetchDestinations();
   }, []);
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
+        <div>
         <Routes>
           <Route path="/" element={<DestinationsList />} />
           <Route path="/destination/:id" element={<DestinationDetails />} />
@@ -33,6 +37,7 @@ function App() {
         </Routes>
       </div>
     </Router>
+    </div>
   );
 }
 
