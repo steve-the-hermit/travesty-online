@@ -48,8 +48,7 @@ const DestinationDetails = () => {
               <div className="content-details">
                   <h4 className="title-details">{destination.description}</h4>
                 <p className="desc-details">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores,
-                  possimus pariatur animi temporibus nesciunt praesentium
+                 
                 </p>
                 <h4>Popular Attractions:</h4>
                 <span className='details-attraction'>{destination.attractions}</span>
