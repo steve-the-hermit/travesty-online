@@ -18,23 +18,24 @@ const DestinationDetails = () => {
       });
   }, [id]);
 
-  const handleAddToBucketList = () => {
-    if (destination) {
-      addDestinationToBucketList(destination)
-        .then(() => {
-          alert(`${destination.name} added to Bucket List!`);
-          navigate('/bucketlist');
-        })
-        .catch((error) => {
-          console.error('Error adding destination to Bucket List: ', error);
-        });
-    }
-  };
+  //const handleAddToBucketList = () => {
+    // if (destination) {
+     // addDestinationToBucketList(destination)
+       // .then(() => {
+          // alert(`${destination.name} added to Bucket List!`);
+          // navigate('/bucketlist');
+        
+      // })
+        // .catch((error) => {
+          // console.error('Error adding destination to Bucket List: ', error);
+        // });
+    // }
+  // };
   if (!destination) {
     return <div>Loading...</div>;
   }
 
-  const attractionsArray = destination.popularAttractions ? destination.popularAttractions.split(',') : [];
+  // const attractionsArray = destination.popularAttractions ? destination.popularAttractions.split(',') : [];
 
   return (
     <div>

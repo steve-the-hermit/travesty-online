@@ -20,7 +20,7 @@ const AddDestination = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     addDestinationToBucketList(destination)
-      .then(() => {
+      .then(() => {  alert(`${destination.name} added to Bucket List!`);
         navigate('/bucketlist');
       })
       .catch((error) => {

@@ -29,24 +29,13 @@ const DestinationsList = () => {
   return (
     <div>
       <NavBar />
-      <h3>Good evening</h3>
+      <h3>Travesty.com</h3>
       <SearchComponent searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       {searchResults.length === 0 ? (
         <p>No destinations found.</p>
       ) : (
         <div className="card-container">
           {searchResults.map((destination) => (
-<<<<<<< HEAD
-            <li key={destination.id}>
-              <h3>{destination.name}</h3>
-              <p>{destination.description}</p>
-              <Link to={`/destination/${destination.id}`}>
-                <h3>{destination.name}</h3>
-                <img src={destination.image} alt={destination.name} />
-              </Link>
-              
-            </li>
-=======
             <div key={destination.id} class="card">
               <div class="image">
                 <img src={destination.url} alt={destination.name} />
@@ -66,7 +55,7 @@ const DestinationsList = () => {
                 </Link>
               </div>
             </div>
->>>>>>> origin/style/navigation
+
           ))}
         </div>
       )}
