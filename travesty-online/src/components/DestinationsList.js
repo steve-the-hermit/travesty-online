@@ -45,8 +45,7 @@ const DestinationsList = () => {
                   <span class="title">{destination.name}</span>
                 </a>
                 <p class="desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores,
-                  possimus pariatur animi temporibus nesciunt praesentium
+                <p>{destination.description}</p>
                 </p>
                 <Link to={`/destination/${destination.id}`}>
                   <a class="action" href={destination.id}>

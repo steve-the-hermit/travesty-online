@@ -45,8 +45,7 @@ const BucketList = () => {
                   <span className="title">{destination.name}</span>
                 </Link>
                 <p className="desc">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae dolores,
-                  possimus pariatur animi temporibus nesciunt praesentium
+                <p>{destination.description}</p>
                 </p>
                 <Link to={`/destination/${destination.id}`}>
                   <a className="action" href={destination.id}>
