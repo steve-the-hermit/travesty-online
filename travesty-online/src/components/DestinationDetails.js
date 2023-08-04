@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
-import { getDestinations, addDestinationToBucketList } from './api';
+import { Link, useParams } from 'react-router-dom';
+import { getDestinations } from './api';
 
 const DestinationDetails = () => {
   const { id } = useParams();
   const [destination, setDestination] = useState(null);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   useEffect(() => {
     getDestinations()
